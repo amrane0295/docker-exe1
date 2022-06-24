@@ -1,0 +1,11 @@
+version: '3'
+
+
+
+services:
+  execapplication:
+      hostname:nabil
+      image: myalpine
+
+      ports:
+        - 32500:5000
